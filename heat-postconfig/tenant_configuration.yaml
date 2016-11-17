@@ -33,9 +33,6 @@ parameters:
   tenant_key_name:
     type: string
     description: ssh key required for server creation
-  tenant_image_name:
-    type: string
-    description: image to use to for the server
   tenant_server1_name:
     type: string
     description: name of the instance
