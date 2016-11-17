@@ -1,0 +1,16 @@
+parameters:
+  project_name: redhat_tenant
+  user_role: ResellerAdmin
+  project_user: redhat_admi1n
+  project_user_passwd: redhat
+  tenant_net_cidr: 192.168.1.0/24
+  tenant_net_gateway: 192.168.1.254
+  tenant_net_pool_start: 192.168.1.10
+  tenant_net_pool_end: 192.168.1.100
+  tenant_key_name: 'ssh-key'
+  tenant_server1_name: 'test_instance'
+  tenant_net_name: tenant_network
+  provider_net_cidr: 192.168.122.0/24
+  provider_net_gateway: 192.168.122.1
+  provider_net_pool_start: 192.168.122.151
+  provider_net_pool_end: 192.168.122.200
