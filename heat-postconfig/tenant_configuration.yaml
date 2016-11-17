@@ -63,7 +63,7 @@ resources:
       name: cirros_image
       os_distro: CirrOS
       owner: admin
-      protected: True
+      protected: False
       is_public: True
 
   instance_flavor:
